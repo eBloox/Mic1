@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Mic1Form">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="419"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d91f9" class="javax.swing.JLabel" binding="MARLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="MAR"/>
+        </properties>
+      </component>
+      <component id="c05b9" class="javax.swing.JLabel" binding="LVLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="LV"/>
+        </properties>
+      </component>
+      <component id="78b43" class="javax.swing.JTextField" binding="MARField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="6b8f1" class="javax.swing.JTextField" binding="MDRField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="eb94d" class="javax.swing.JTextField" binding="PCField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="9c40e" class="javax.swing.JTextField" binding="SPField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="b8a79" class="javax.swing.JTextField" binding="LVField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="6f103" class="javax.swing.JTextField" binding="CPPField">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="2c9bd" class="javax.swing.JTextField" binding="OPCField">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="d99ca" class="javax.swing.JTextField" binding="HField">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="3a78" class="javax.swing.JButton" binding="cycleButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <font name="Courier New" size="20"/>
+          <text value="Cycle"/>
+        </properties>
+      </component>
+      <component id="d6a72" class="javax.swing.JButton" binding="importMICButton">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="Import MIC1"/>
+        </properties>
+      </component>
+      <component id="7b268" class="javax.swing.JLabel" binding="MIC1FileLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MIC1:"/>
+        </properties>
+      </component>
+      <component id="b40c1" class="javax.swing.JTextField" binding="MBRField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="4639d" class="javax.swing.JLabel" binding="PCLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="PC"/>
+        </properties>
+      </component>
+      <component id="3d3cb" class="javax.swing.JLabel" binding="MDRLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="MDR"/>
+        </properties>
+      </component>
+      <component id="df51" class="javax.swing.JLabel" binding="MBRLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="MBR"/>
+        </properties>
+      </component>
+      <component id="3d94b" class="javax.swing.JLabel" binding="SPLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="SP"/>
+        </properties>
+      </component>
+      <component id="93cdf" class="javax.swing.JLabel" binding="CPPLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="CPP"/>
+        </properties>
+      </component>
+      <component id="b5559" class="javax.swing.JLabel" binding="OPCLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="OPC"/>
+        </properties>
+      </component>
+      <component id="3fff5" class="javax.swing.JLabel" binding="HLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="H"/>
+        </properties>
+      </component>
+      <component id="743fc" class="javax.swing.JLabel" binding="TOS">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="TOS"/>
+        </properties>
+      </component>
+      <component id="ae05a" class="javax.swing.JTextField" binding="TOSField">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="130" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="DialogInput" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="35f17" class="javax.swing.JButton" binding="runButton">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <font name="Courier New" size="20"/>
+          <text value="Run"/>
+        </properties>
+      </component>
+      <component id="648e5" class="javax.swing.JButton" binding="assembleJASButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="Assemble JAS"/>
+        </properties>
+      </component>
+      <component id="e119c" class="javax.swing.JButton" binding="importIJVMButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="Import IJVM"/>
+        </properties>
+      </component>
+      <component id="d5e0e" class="javax.swing.JLabel" binding="IJVMFileLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="IJVM:"/>
+        </properties>
+      </component>
+      <component id="1690d" class="javax.swing.JButton" binding="assembleMALButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="Assemble MAL"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
